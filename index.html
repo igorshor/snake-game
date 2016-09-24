@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style/app.css"/>
+</head>
+<body>
+<div id="gameContainer" class="game-container">
+    <div id="gameInfo" class="game-info">
+        <div class="game-score">
+            <div>Score</div>
+            <div id="gameScore"></div>
+        </div>
+        <div class="special-food-countdown">
+            <div id="specialFoodCountDown"></div>
+        </div>
+    </div>
+    <div id="snakeGame" class="snake-game"></div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="helpers/eventEmitter.js"></script>
+<script src="model/board.js"></script>
+<script src="model/moveHelpers.js"></script>
+<script src="model/appSettings.js"></script>
+<script src="model/moveManager.js"></script>
+<script src="model/moveResult.js"></script>
+<script src="model/rules.js"></script>
+<script src="model/snake.js"></script>
+<script src="model/square.js"></script>
+<script src="model/gameManager.js"></script>
+<script src="model/food/food.js"></script>
+<script src="model/food/foodGenerator.js"></script>
+<script src="model/food/foodManager.js"></script>
+<script src="model/food/specialFood.js"></script>
+<script src="model/food/specialFoodGenerationStrategies.js"></script>
+<script src="view/view.js"></script>
+<script src="controller/controller.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

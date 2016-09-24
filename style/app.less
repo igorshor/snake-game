@@ -1,0 +1,52 @@
+@squareSize: 15px;
+@numberSquaresInRow: 30;
+@gameWidth: (15px * @numberSquaresInRow);
+
+.game-container {
+  width: @gameWidth;
+  position: relative;
+  .game-info {
+    position: relative;
+    height: 50px;
+    width:100%;
+    .game-score {
+      float: left;
+    }
+
+    .special-food-countdown {
+      float: right;
+    }
+  }
+  .snake-game {
+    position: relative;
+    width:100%;
+    .row {
+      height: @squareSize;
+    }
+
+    .snake {
+      background-color: greenyellow;
+    }
+
+    .snake-head {
+      background-color: yellow;
+    }
+
+    .snake-food {
+      background-color: red;
+    }
+
+    .snake-special-food {
+      background-color: magenta;
+    }
+
+    .row div {
+      box-sizing: border-box;
+      width: @squareSize;
+      height: @squareSize;
+      color: white;
+      display: inline-block;
+      border: 1px solid black;
+    }
+  }
+}

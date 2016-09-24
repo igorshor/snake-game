@@ -1,0 +1,19 @@
+///<reference path="controller/controller.ts"/>
+///<reference path="model/board.ts"/>
+///<reference path="model/moveResult.ts"/>
+///<reference path="model/rules.ts"/>
+///<reference path="model/appSettings.ts"/>
+///<reference path="model/snake.ts"/>
+///<reference path="model/square.ts"/>
+///<reference path="model/gameManager.ts"/>
+///<reference path="model/moveManager.ts"/>
+///<reference path="model/food/food.ts"/>
+///<reference path="model/food/foodGenerator.ts"/>
+///<reference path="model/food/foodManager.ts"/>
+///<reference path="model/food/specialFood.ts"/>
+///<reference path="model/food/specialFoodGenerationStrategies.ts"/>
+///<reference path="model/moveHelpers.ts"/>
+///<reference path="view/view.ts"/>
+///<reference path="helpers/eventEmitter.ts"/>
+///<reference path="typings/jquery/jquery.d.ts"/>
+

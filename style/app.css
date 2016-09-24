@@ -1,0 +1,42 @@
+.game-container {
+  width: 450px;
+  position: relative;
+}
+.game-container .game-info {
+  position: relative;
+  height: 50px;
+  width: 100%;
+}
+.game-container .game-info .game-score {
+  float: left;
+}
+.game-container .game-info .special-food-countdown {
+  float: right;
+}
+.game-container .snake-game {
+  position: relative;
+  width: 100%;
+}
+.game-container .snake-game .row {
+  height: 15px;
+}
+.game-container .snake-game .snake {
+  background-color: greenyellow;
+}
+.game-container .snake-game .snake-head {
+  background-color: yellow;
+}
+.game-container .snake-game .snake-food {
+  background-color: red;
+}
+.game-container .snake-game .snake-special-food {
+  background-color: magenta;
+}
+.game-container .snake-game .row div {
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  color: white;
+  display: inline-block;
+  border: 1px solid black;
+}
